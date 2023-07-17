@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PaymentModule" />
+        <module name="UserModule" />
+        <module name="BookingModule" />
+        <module name="MovieModule" />
+        <module name="TheatreModule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookingModule" options="-parameters" />
+      <module name="MovieBookingSystem" options="" />
+      <module name="MovieModule" options="-parameters" />
+      <module name="PaymentModule" options="-parameters" />
+      <module name="TheatreModule" options="-parameters" />
+      <module name="UserModule" options="-parameters" />
+    </option>
+  </component>
+</project>
